@@ -1,0 +1,26 @@
+[First Name] [Last Name]
+[City, State] | [Phone Number] | [Email Address] | [LinkedIn URL] | [GitHub/Portfolio URL]
+
+EDUCATION
+[University Name] - [City, State]
+[Degree] in [Major], GPA: [X.X/4.0] | Expected [Month, Year]
+Relevant Coursework: [Data Structures, Algorithms, Operating Systems, Database Systems]
+
+EXPERIENCE
+[Company Name] - [City, State]
+[Job Title] | [Month, Year] – [Month, Year]
+- Bullet point explaining an accomplishment. Start with an action verb (e.g., Developed, Optimized).
+- Feature specific metrics: "Reduced load time by 20% by implementing Redis caching."
+- Highlight collaboration: "Collaborated with a 5-person agile team to deploy a microservices backend."
+
+PROJECTS
+[Project Name] | [Technologies Used: React, Node.js, Python, MongoDB]
+[Link to project or GitHub repository]
+- Built a full-stack web application that solves [Specific Problem].
+- Implemented [Specific Feature] using [Specific Technology] resulting in [Direct Metric/Impact].
+- Handled state management and user authentication manually using JWTs.
+
+SKILLS
+Programming Languages: Java, Python, JavaScript, TypeScript, C++
+Web Technologies / Frameworks: React.js, Node.js, Express, Django, HTML/CSS
+Database / Tools: MySQL, MongoDB, Git, Docker, AWS, Postman
