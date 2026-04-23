@@ -42,10 +42,12 @@ export default function Login({ onLogin }) {
       setError('User with this email already exists.');
       return;
     }
-    const newUser = { name, email, password, question, answer: answer.toLowerCase() };
-    setUsers([...users, newUser]);
+       const newUser = { name, email, password, question, answer: answer.toLowerCase() };
+    const updatedUsers = [...users, newUser];
+    setUsers(updatedUsers);
+    localStorage.setItem('auth_users', JSON.stringify(updatedUsers));
     onLogin({ name, email });
-  };
+
 
   const handleForgotSearch = (e) => {
     e.preventDefault();
